@@ -1,0 +1,116 @@
+body {
+    width:1800px;
+    height: 1200;
+}
+#mise_en_page {
+    width: 1800px;
+    display:flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 50px 50px 0px 100px;
+    align-items: center;
+}
+#bloc1 {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    background-color: rgba(72,61,139,2);
+    margin: 100px 0 50px 0;
+    padding: 20px;
+}
+#bloc2 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    bottom: 90px;
+    margin: auto;
+    padding: 20px;
+    border: solid 0.5px rgba(72,61,139,2);
+}
+#bloc3 {
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    margin: 100px 200px 50px 0;
+    
+    background-color: grey;
+    top: 200px;
+    left: 300px;
+    bottom: 500px;
+}
+.renseignements {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.info {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-size:smaller;
+}
+div ul {
+    padding:0; margin: 0; list-style-type:none;
+    display: flex;
+    
+    }
+div a {
+    display:flex;
+    padding: 0px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+   
+  }
+
+  #sous_bloc {
+   margin: 20px 0 50px 100px;
+   pointer-events: none;
+    
+  }
+
+  .titre {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+  .titre2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(72,61,139,2);
+    text-decoration: none;
+  }
+
+  nav ul {
+    padding: 0; margin: 0 150px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 30px;
+    background-color: rgba(72,61,139,2);
+    border: white solid 0.5px;
+    border-radius: 50px;
+  }
+  nav a:hover {color: grey; background-color: rgba(72,61,139,2);}
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.p2 {
+    font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+
+}
+.p3 {
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+}
