@@ -3,5 +3,5 @@
 VCard:
 - 1 fichier html
 - 2 fichiers css:
-    - flex
-    - grid
+    - flex (branche)
+    - grid (branche_grid)
