@@ -1,9 +1,8 @@
 body {
-    width:1800px;
-    height: 1200;
+    width:1300px;
 }
 #mise_en_page {
-    width: 1800px;
+    width: 1300px;
     display:flex;
     position: relative;
     flex-direction: row;
@@ -66,9 +65,7 @@ div a {
   }
 
   #sous_bloc {
-   margin: 20px 0 50px 100px;
-   pointer-events: none;
-    
+   margin: 20px 0 50px 100px;    
   }
 
   .titre {
