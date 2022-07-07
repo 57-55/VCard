@@ -1,9 +1,8 @@
 body {
-    width:1800px;
-    height: 1200px;
+    width:1300px;
 }
 #mise_en_page {
-    width: 1800px;
+    width: 1300px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     position: relative;
